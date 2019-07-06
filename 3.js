@@ -1,9 +1,6 @@
-var input = window.prompt("input");
-var a = parseInt(input);
+console.log("operasi(100)");
 
-console.log("operasi(" + a + ")");
-
-operasi(a);
+operasi(100);
 
 function first(num){
     var x = 0;
@@ -23,8 +20,8 @@ function first(num){
 
 function operasi(b){
   
-  max = first(1);
-  numbers = 0;
+  var max = first(1);
+  var numbers = 0;
   
   for(i=1; i<=b; i++){
     if(first(i) > max){

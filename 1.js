@@ -9,7 +9,8 @@ var bio = {
         {"university":"Universitas Bakrie", "year_in":2017}
     ],
     "skills":[
-        {}
+        {"skillName":"writing","level":"beginner"},
+        {"skillName":"javascript","level":"beginner"}
     ],
     "interest_in_coding":true
 }
