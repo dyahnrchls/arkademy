@@ -25,4 +25,4 @@
     * lalu "node index.js"
     * jika port local-host telah digunakan, bisa dirubah pada index.js
 
-**jika tidak bisa, berikut saya tampilkan front-end pada nomor 7**
+**jika tidak bisa, berikut saya melampirkan file screenshot.png pada folder 7**
