@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nomer 7l</title>
+  <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <div class="container">
+    <h2>Arkademy</h2>
+        <button class="btn btn-success" data-toggle="modal" data-target="#myModalAdd">Add</button>
+    <table class="table table-striped" id="mytable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Hobby</th>
+          <th>Category</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+         {{#each results}}
+        <tr>
+          <td>{{ Name }}</td>
+          <td>{{ Hobby }}</td>
+          <td>{{ Category }}</td>
+          <td>
+            <a href="javascript:void(0);" class="btn btn-sm btn-info edit" >Edit</a>
+            <a href="javascript:void(0);" class="btn btn-sm btn-danger delete">Delete</a>
+          </td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
